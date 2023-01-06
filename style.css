@@ -7,6 +7,16 @@
     font-family: 'Work Sans';
 }
 
+/*  Global */
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 230px;
+}
+
 /*  Header  */
 
 .header {
@@ -62,3 +72,149 @@
     color: #F15B22;
     background: #FFFFFF;
 }
+
+/*  First Section  */
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    gap: 87px;
+    height: 983px;
+    margin-top: 80px;
+}
+
+.section1-image {
+    position: relative;
+    height: 350px;
+    bottom: 50px;
+}
+
+.image-bg {
+    width: 527.93px;
+    height: 527.93px;
+    background: #F15B2233;
+    border-radius: 50%;
+}
+
+.image {
+    position: relative;
+    bottom: 723px;
+    right: 22px;
+}
+
+.section1-content ul li{
+    list-style: none;
+}
+
+.section1-content ul li:before {
+    content: '✓';
+    margin-right: 10px;
+    color: #16D887;
+}
+
+.content-header {
+    width: 288px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.content-description {
+    width: 416px;
+    margin: 24px 0 16px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+.list-description {
+    width: 416px;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/*  Section 2 */
+
+.section2 {
+    margin-bottom: 124px;
+}
+
+.section2-header {
+    margin: 0 0 50px 0;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+
+.section2-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 86px;
+    text-align: center;
+}
+
+.item-header {
+    margin: 24px 0 16px 0;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+}
+
+.item-detail {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+
+/*  Section 3 */
+
+.section3 {
+    width: 1190px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right, #F15B22 , #F15B2200), url('./images/watch.png');
+    background-blend-mode: color;
+    padding: 59px 64px 59px 64px;
+    margin-bottom: 130px;
+    margin-left: 45px;
+}
+
+.section3-header {
+    width: 459px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.button2 {
+    width: 160px;
+    height: 64px;
+    background: #FFFFFF;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+

@@ -37,7 +37,7 @@
 
 .header-title {
     font-style: normal;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 65px;
     line-height: 76px;
     text-align: right;
@@ -157,7 +157,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 86px;
+    gap: 85px;
     text-align: center;
 }
 
@@ -178,10 +178,28 @@
     color: #737272;
 }
 
+
+/* 
+.content-item {
+    width: 300px;
+    height: 250px;
+    padding: 20px 5px 5px 5px;
+}
+
+.content-item:hover {
+    background: #F15B221A;
+    border: 1px solid #F15B22;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+*/
+
+
 /*  Section 3 */
 
 .section3 {
-    width: 1190px;
+    width: 1140px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -192,7 +210,7 @@
     background-blend-mode: color;
     padding: 59px 64px 59px 64px;
     margin-bottom: 130px;
-    margin-left: 45px;
+    /* margin-left: 45px; */
 }
 
 .section3-header {
@@ -225,7 +243,74 @@
 
 /*  Footer  */
 
+.footer {
+    height: 577px;
+    width: 100%;
+    background: #151414;
+    color: #FFFFFF;
+    overflow: hidden
+}
 
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 130px 244px;
+}
 
+.contact-header {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
 
+.contact-detail {
+    width: 485px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
 
+.detail-1 {
+    margin-bottom: 24px;
+}
+
+.detail-2 {
+    margin-bottom: 16px;
+}
+
+.detail-3 {
+    margin-bottom: 32px;
+}
+
+.social-icon img {
+    margin-right: 17px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 31px;
+}
+
+.contact-form input[type="email"] {
+    width: 325px;
+    height: 64px;
+    background: #151414;
+    padding: 21px;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}

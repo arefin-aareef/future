@@ -83,23 +83,21 @@
     margin-top: 80px;
 }
 
-.section1-image {
-    position: relative;
-    height: 350px;
-    bottom: 50px;
-}
-
 .image-bg {
+    position: relative;
     width: 527.93px;
     height: 527.93px;
     background: #F15B2233;
-    border-radius: 50%;
+    border-radius: 50%;    
 }
 
-.image {
+.radius-bg {
     position: relative;
-    bottom: 723px;
-    right: 22px;
+    width: 569px;
+    height: 723px;
+    background-image: url('./images/person.png');
+    bottom: 197px;
+    right: 23px;
 }
 
 .section1-content ul li{
@@ -157,7 +155,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 85px;
+    gap: 25px;
     text-align: center;
 }
 
@@ -178,12 +176,11 @@
     color: #737272;
 }
 
-
-/* 
 .content-item {
     width: 300px;
     height: 250px;
     padding: 20px 5px 5px 5px;
+    cursor: pointer;
 }
 
 .content-item:hover {
@@ -193,7 +190,7 @@
     overflow: hidden;
 }
 
-*/
+
 
 
 /*  Section 3 */
@@ -208,9 +205,8 @@
     background-repeat: no-repeat;
     background-image: linear-gradient(to right, #F15B22 , #F15B2200), url('./images/watch.png');
     background-blend-mode: color;
-    padding: 59px 64px 59px 64px;
+    padding: 59px 64px;
     margin-bottom: 130px;
-    /* margin-left: 45px; */
 }
 
 .section3-header {
@@ -288,6 +284,10 @@
 
 .social-icon img {
     margin-right: 17px;
+}
+
+.social-icon img:hover {
+    cursor: pointer;
 }
 
 .contact-form {

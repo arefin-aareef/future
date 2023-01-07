@@ -217,4 +217,15 @@
     cursor: pointer;
 }
 
+.button2:hover {
+    border: 2px solid #FFFFFF;
+    background: #F15B22;
+    color: #FFFFFF;
+}
+
+/*  Footer  */
+
+
+
+
 
